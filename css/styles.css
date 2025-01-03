@@ -463,6 +463,7 @@ header .container {
 }
 .icon-subscribe {
   margin-left: 16px;
+  fill: #fff;
 }
 /* Modal Window */
 .modal-overlay {
