@@ -479,7 +479,7 @@
 
         <form class="modal-form">
           <div class="form-content">
-            <label for="user-name" class="input-label"> Name</label>
+            <label for="user-name" class="input-label">Name</label>
             <div class="input-icon-wrapper">
               <input
                 name="user-name"
@@ -492,8 +492,10 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
+          </div>
 
-            <label for="user-phone" class="input-label"> Phone</label>
+          <div class="form-content">
+            <label for="user-phone" class="input-label">Phone</label>
             <div class="input-icon-wrapper">
               <input
                 name="user-phone"
@@ -506,8 +508,10 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
+          </div>
 
-            <label for="user-mail" class="input-label"> Email</label>
+          <div class="form-content">
+            <label for="user-mail" class="input-label">Email</label>
             <div class="input-icon-wrapper">
               <input
                 name="user-mail"
@@ -520,20 +524,22 @@
                 <use href="./images/icons.svg#icon-mail "></use>
               </svg>
             </div>
+          </div>
 
-            <label for="order-comment" class="input-label">
-              Comment
-              <textarea
-                id="order-comment"
-                class="modal-input-text"
-                placeholder="Text input"
-                rows="4"
-              ></textarea>
-            </label>
+          <div class="form-content-comment">
+            <label for="order-comment" class="input-label"> Comment</label>
+            <textarea
+              name="order-comment"
+              id="order-comment"
+              class="modal-input-text"
+              placeholder="Text input"
+            ></textarea>
           </div>
 
           <div class="privacy">
             <input
+              name="privacy-checkbox"
+              value="true"
               id="privacy-checkbox"
               type="checkbox"
               class="checkbox visually-hidden"
@@ -546,7 +552,7 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="#" class="policy-link">Privacy Policy</a>
+              <a href="#" class="policy-link"> Privacy Policy</a>
             </label>
           </div>
           <button class="button-order" type="submit">Send</button>
